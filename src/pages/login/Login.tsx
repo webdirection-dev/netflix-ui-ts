@@ -1,7 +1,7 @@
 import React from "react"
 
 import './login.scss'
-import logo from '../../multimedia/img/logo.png'
+import logo from '../../img/logo.png'
 
 const Login: React.FC = () => {
     return(

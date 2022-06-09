@@ -1,7 +1,7 @@
 import React, {useRef, useState} from "react"
 
 import './register.scss'
-import logo from '../../multimedia/img/logo.png'
+import logo from '../../img/logo.png'
 
 const Register: React.FC = () => {
     const [email, setEmail] = useState('')

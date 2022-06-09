@@ -1,8 +1,8 @@
 import React from "react"
 
 import './navbar.scss'
-import logo from '../../multimedia/img/logo.png'
-import avatar from '../../multimedia/img/avatar.jpeg'
+import logo from '../../img/logo.png'
+import avatar from '../../img/avatar.jpeg'
 import {Search, Notifications, ArrowDropDown} from "@mui/icons-material"
 import {useState} from "react"
 

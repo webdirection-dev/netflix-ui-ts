@@ -1,6 +1,5 @@
 import React from "react"
 import './watch.scss'
-import video from '../../multimedia/video/the-marías-hush.mp4'
 
 import {ArrowBackOutlined} from "@mui/icons-material"
 
@@ -15,7 +14,7 @@ const Watch: React.FC = () => {
 
             <video
                 className='video'
-                src={video}
+                src='https://webdirection.org/video/the-mari%CC%81as-hush.mp4'
                 autoPlay
                 controls
 

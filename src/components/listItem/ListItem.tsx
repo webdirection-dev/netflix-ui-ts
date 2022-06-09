@@ -2,14 +2,13 @@ import React, {useState} from "react"
 
 import './listItem.scss'
 import {Add, PlayArrow, ThumbDownAltOutlined, ThumbUpAltOutlined} from "@mui/icons-material"
-import video from '../../multimedia/video/the-marías-hush.mp4'
 
 interface IListItem {
     index: number;
 }
 
 const ListItem: React.FC<IListItem> = ({index}) => {
-    const trailer = ''
+    const trailer = 'https://webdirection.org/video/the-mari%CC%81as-hush.mp4'
     const [isHovered, setIsHovered] = useState(false)
 
 
@@ -39,7 +38,7 @@ const ListItem: React.FC<IListItem> = ({index}) => {
                 {isHovered && (
                     <video autoPlay={true} loop muted>
                         <source
-                            src={video}
+                            src={trailer}
                             type='video/mp4'
                         />
                     </video>
